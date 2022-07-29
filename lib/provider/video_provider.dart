@@ -8,9 +8,5 @@ class VideoProvider extends ChangeNotifier {
   getVideoList() async {
     videoList = FirebaseStorage.instance.ref("videos").listAll();
     notifyListeners();
-    /*await FirebaseStorage.instance.ref("videos").listAll().then((value) {
-      videoList = value;
-      notifyListeners();
-    });*/
   }
 }
