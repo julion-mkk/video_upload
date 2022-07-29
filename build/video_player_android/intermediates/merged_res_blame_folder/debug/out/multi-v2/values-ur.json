@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/video_player_android/intermediates/res/merged/debug/values-ur/values-ur.xml",
+            "outputFile": "/Users/minkhantkyaw/Downloads/video_upload/build/video_player_android/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4a9be35b390634a97ac547a7279e62cf/jetified-exoplayer-core-2.18.0/res/values-ur/values-ur.xml",
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "outputFile": "/Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/video_player_android/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
+            "outputFile": "/Users/minkhantkyaw/Downloads/video_upload/build/video_player_android/intermediates/res/merged/debug/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4a9be35b390634a97ac547a7279e62cf/jetified-exoplayer-core-2.18.0/res/values-ur/values-ur.xml",

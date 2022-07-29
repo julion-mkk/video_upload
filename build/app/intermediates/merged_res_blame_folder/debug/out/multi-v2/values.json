@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/minkhantkyaw/Downloads/video_upload/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/cc67751070ba8f7377d63ab76544c726/jetified-play-services-base-18.0.1/res/values/values.xml",
@@ -23,20 +23,22 @@
                     }
                 },
                 {
-                    "source": "/Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/app/generated/res/google-services/debug/values/values.xml",
+                    "source": "/Users/minkhantkyaw/Downloads/video_upload/android/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,716",
-                        "endColumns": "143,81,103,108,119,101,78",
-                        "endOffsets": "194,276,380,489,609,711,790"
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,807",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,971"
                     },
                     "to": {
-                        "startLines": "120,130,131,132,133,134,135",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "8556,9346,9428,9532,9641,9761,9863",
-                        "endColumns": "143,81,103,108,119,101,78",
-                        "endOffsets": "8695,9423,9527,9636,9756,9858,9937"
+                        "startLines": "137,142",
+                        "startColumns": "4,4",
+                        "startOffsets": "10013,10310",
+                        "endLines": "141,144",
+                        "endColumns": "12,12",
+                        "endOffsets": "10305,10474"
                     }
                 },
                 {
@@ -129,22 +131,20 @@
                     }
                 },
                 {
-                    "source": "/Users/minkhantkyaw/AndroidStudioProjects/video_upload/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/minkhantkyaw/Downloads/video_upload/build/app/generated/res/google-services/debug/values/values.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,807",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,971"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,716",
+                        "endColumns": "143,81,103,108,119,101,78",
+                        "endOffsets": "194,276,380,489,609,711,790"
                     },
                     "to": {
-                        "startLines": "137,142",
-                        "startColumns": "4,4",
-                        "startOffsets": "10013,10310",
-                        "endLines": "141,144",
-                        "endColumns": "12,12",
-                        "endOffsets": "10305,10474"
+                        "startLines": "120,130,131,132,133,134,135",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8556,9346,9428,9532,9641,9761,9863",
+                        "endColumns": "143,81,103,108,119,101,78",
+                        "endOffsets": "8695,9423,9527,9636,9756,9858,9937"
                     }
                 }
             ]

@@ -39,6 +39,7 @@ dependencies:
   firebase_storage:
   video_player: ^2.4.5
   file_picker:
+  provider:
 
 dev_dependencies:
   flutter_test:

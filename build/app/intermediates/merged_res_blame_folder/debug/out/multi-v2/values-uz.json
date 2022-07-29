@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "/Users/minkhantkyaw/Downloads/video_upload/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/9563e7b25438457b4f28d4b3a4eae556/jetified-play-services-basement-18.0.0/res/values-uz/values.xml",

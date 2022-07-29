@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
+            "outputFile": "/Users/minkhantkyaw/Downloads/video_upload/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "/Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4a9be35b390634a97ac547a7279e62cf/jetified-exoplayer-core-2.18.0/res/values-ca/values-ca.xml",

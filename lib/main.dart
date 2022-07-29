@@ -1,6 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:video_upload/screens/view_screen.dart';
+import 'package:provider/provider.dart';
+import 'package:video_upload/provider/video_provider.dart';
+import 'package:video_upload/screens/video_view_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,7 +31,13 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: VideoViewScreen(),
+      home: MultiProvider(
+        providers: [
+          //ChangeNotifier(create: (_)=> VideoProvider(),)
+          ChangeNotifierProvider(create: (BuildContext context)=> VideoProvider(),)
+        ],
+        child: VideoViewScreen(),
+      ),
     );
   }
 }

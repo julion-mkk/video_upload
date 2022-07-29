@@ -118,7 +118,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="default_web_client_id" translatable="false">103142178788-cc3dub6jttg928pm7ul8ku0svu096gn8.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">979112204477-6rofqfchh3nl7is3cr4u2udb53uf2hon.apps.googleusercontent.com</string>
     <string name="exo_download_completed">Download completed</string>
     <string name="exo_download_description">Download</string>
     <string name="exo_download_downloading">Downloading</string>
@@ -128,12 +128,12 @@
     <string name="exo_download_paused_for_network">Downloads waiting for network</string>
     <string name="exo_download_paused_for_wifi">Downloads waiting for WiFi</string>
     <string name="exo_download_removing">Removing downloads</string>
-    <string name="gcm_defaultSenderId" translatable="false">103142178788</string>
-    <string name="google_api_key" translatable="false">AIzaSyAWeaFWpRBc5_I3nc9oq9et3y4N4Ut6NiI</string>
-    <string name="google_app_id" translatable="false">1:103142178788:android:42bb727e58fce71d9551f1</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAWeaFWpRBc5_I3nc9oq9et3y4N4Ut6NiI</string>
-    <string name="google_storage_bucket" translatable="false">video-upload-4bdc7.appspot.com</string>
-    <string name="project_id" translatable="false">video-upload-4bdc7</string>
+    <string name="gcm_defaultSenderId" translatable="false">979112204477</string>
+    <string name="google_api_key" translatable="false">AIzaSyBEypB-1CY8r2OZ8007gzY7xKksr7LD2w4</string>
+    <string name="google_app_id" translatable="false">1:979112204477:android:3bd07834dc1b08e0d8bfd4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBEypB-1CY8r2OZ8007gzY7xKksr7LD2w4</string>
+    <string name="google_storage_bucket" translatable="false">video-upload-45090.appspot.com</string>
+    <string name="project_id" translatable="false">video-upload-45090</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <!-- Show a splash screen on the activity. Automatically removed when
