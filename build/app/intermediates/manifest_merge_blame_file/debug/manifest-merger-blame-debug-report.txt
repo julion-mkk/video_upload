@@ -1,0 +1,224 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.video_upload"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/minkhantkyaw/AndroidStudioProjects/video_upload/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/minkhantkyaw/AndroidStudioProjects/video_upload/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:file_picker] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+15-->[:file_picker] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+16
+17    <queries>
+17-->[:file_picker] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+18        <intent>
+18-->[:file_picker] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+19            <action android:name="android.intent.action.GET_CONTENT" />
+19-->[:file_picker] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+19-->[:file_picker] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+20
+21            <data android:mimeType="*/*" />
+21-->[:file_picker] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
+21-->[:file_picker] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-41
+22        </intent>
+23    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+24    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.firebase:firebase-storage:20.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/0b41f8aae4a15ea0480fd46d4dd8c688/jetified-firebase-storage-20.0.1/AndroidManifest.xml:26:5-79
+25-->[com.google.firebase:firebase-storage:20.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/0b41f8aae4a15ea0480fd46d4dd8c688/jetified-firebase-storage-20.0.1/AndroidManifest.xml:26:22-76
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/581a1b04671f6d06c6882a119b75f385/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:24:5-68
+26-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/581a1b04671f6d06c6882a119b75f385/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+27-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/581a1b04671f6d06c6882a119b75f385/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:25:5-79
+27-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/581a1b04671f6d06c6882a119b75f385/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:25:22-76
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:26:22-107
+29
+30    <application
+31        android:name="android.app.Application"
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.7.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/c3cfa0d6be01160dbd24e56810c63e6d/core-1.7.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+35        android:label="video_upload" >
+36        <activity
+37            android:name="com.example.video_upload.MainActivity"
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+39            android:exported="true"
+40            android:hardwareAccelerated="true"
+41            android:launchMode="singleTop"
+42            android:theme="@style/LaunchTheme"
+43            android:windowSoftInputMode="adjustResize" >
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+52                android:name="io.flutter.embedding.android.NormalTheme"
+53                android:resource="@style/NormalTheme" />
+54
+55            <intent-filter>
+56                <action android:name="android.intent.action.MAIN" />
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+66            android:name="flutterEmbedding"
+67            android:value="2" />
+68
+69        <service
+69-->[:firebase_database] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+70            android:name="com.google.firebase.components.ComponentDiscoveryService"
+70-->[:firebase_database] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+71            android:directBootAware="true"
+71-->[com.google.firebase:firebase-common:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/323ae1a0f91f2f648952137a935fbf87/jetified-firebase-analytics-ktx-21.1.0/AndroidManifest.xml:10:13-37
+73            <meta-data
+73-->[:firebase_database] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+74-->[:firebase_database] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_database] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[:firebase_storage] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+77-->[:firebase_storage] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_storage] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+79            <meta-data
+79-->[:firebase_core] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+80-->[:firebase_core] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:firebase_core] /Users/minkhantkyaw/AndroidStudioProjects/video_upload/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/323ae1a0f91f2f648952137a935fbf87/jetified-firebase-analytics-ktx-21.1.0/AndroidManifest.xml:11:13-13:85
+83                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+83-->[com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/323ae1a0f91f2f648952137a935fbf87/jetified-firebase-analytics-ktx-21.1.0/AndroidManifest.xml:12:17-126
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/323ae1a0f91f2f648952137a935fbf87/jetified-firebase-analytics-ktx-21.1.0/AndroidManifest.xml:13:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/d3b8f6d81bf2913335f9e2239103ca79/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+86                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+86-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/d3b8f6d81bf2913335f9e2239103ca79/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/d3b8f6d81bf2913335f9e2239103ca79/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-storage:20.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/0b41f8aae4a15ea0480fd46d4dd8c688/jetified-firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+89                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+89-->[com.google.firebase:firebase-storage:20.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/0b41f8aae4a15ea0480fd46d4dd8c688/jetified-firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-storage:20.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/0b41f8aae4a15ea0480fd46d4dd8c688/jetified-firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-database:20.0.5] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+92                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+92-->[com.google.firebase:firebase-database:20.0.5] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-database:20.0.5] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/fea504071b2f0b6e66a42a8d898350f2/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+94            <meta-data
+94-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/581a1b04671f6d06c6882a119b75f385/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:31:13-33:85
+95                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+95-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/581a1b04671f6d06c6882a119b75f385/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:32:17-139
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/581a1b04671f6d06c6882a119b75f385/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:33:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-installations:17.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/8b91a73945aa04b0cf12d79b4b1c8f9a/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+98                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+98-->[com.google.firebase:firebase-installations:17.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/8b91a73945aa04b0cf12d79b4b1c8f9a/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-installations:17.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/8b91a73945aa04b0cf12d79b4b1c8f9a/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+100        </service>
+101
+102        <uses-library
+102-->[androidx.window:window:1.0.0-beta04] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+103            android:name="androidx.window.extensions"
+103-->[androidx.window:window:1.0.0-beta04] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+104            android:required="false" />
+104-->[androidx.window:window:1.0.0-beta04] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+105        <uses-library
+105-->[androidx.window:window:1.0.0-beta04] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+106            android:name="androidx.window.sidecar"
+106-->[androidx.window:window:1.0.0-beta04] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+107            android:required="false" />
+107-->[androidx.window:window:1.0.0-beta04] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/5d93ab2f2812dcc02a149cabf48676c0/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+108
+109        <provider
+109-->[com.google.firebase:firebase-common:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+110            android:name="com.google.firebase.provider.FirebaseInitProvider"
+110-->[com.google.firebase:firebase-common:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+111            android:authorities="com.example.video_upload.firebaseinitprovider"
+111-->[com.google.firebase:firebase-common:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+112            android:directBootAware="true"
+112-->[com.google.firebase:firebase-common:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+113            android:exported="false"
+113-->[com.google.firebase:firebase-common:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+114            android:initOrder="100" />
+114-->[com.google.firebase:firebase-common:20.1.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/a0cb2066e564a8bc4d729213c3b73525/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+115
+116        <activity
+116-->[com.google.android.gms:play-services-base:18.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/cc67751070ba8f7377d63ab76544c726/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+117            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+117-->[com.google.android.gms:play-services-base:18.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/cc67751070ba8f7377d63ab76544c726/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-base:18.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/cc67751070ba8f7377d63ab76544c726/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[com.google.android.gms:play-services-base:18.0.1] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/cc67751070ba8f7377d63ab76544c726/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+120
+121        <receiver
+121-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:29:9-33:20
+122            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+122-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:30:13-85
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:31:13-35
+124            android:exported="false" >
+124-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:32:13-37
+125        </receiver>
+126
+127        <service
+127-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:35:9-38:40
+128            android:name="com.google.android.gms.measurement.AppMeasurementService"
+128-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:36:13-84
+129            android:enabled="true"
+129-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:37:13-35
+130            android:exported="false" />
+130-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:38:13-37
+131        <service
+131-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:39:9-43:72
+132            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+132-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:40:13-87
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:41:13-35
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:42:13-37
+135            android:permission="android.permission.BIND_JOB_SERVICE" />
+135-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/4293f4b1ec21689cd1c8f1cc353a7818/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:43:13-69
+136
+137        <meta-data
+137-->[com.google.android.gms:play-services-basement:18.0.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/9563e7b25438457b4f28d4b3a4eae556/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+138            android:name="com.google.android.gms.version"
+138-->[com.google.android.gms:play-services-basement:18.0.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/9563e7b25438457b4f28d4b3a4eae556/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.google.android.gms:play-services-basement:18.0.0] /Users/minkhantkyaw/.gradle/caches/transforms-2/files-2.1/9563e7b25438457b4f28d4b3a4eae556/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+140    </application>
+141
+142</manifest>
